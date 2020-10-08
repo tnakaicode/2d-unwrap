@@ -34,11 +34,11 @@ setup(
         'Programming Language :: Python :: 3',
         'Topic :: Scientific/Engineering',
         'Operating System :: OS Independent'
-        ],
+    ],
     install_requires=[
         "numpy>=1.6",
         "cffi>=0.7",
-        ],
+    ],
     package_data={'unwrap': ['*.c']},
     packages=['unwrap'],
     provides=['unwrap'],
@@ -46,6 +46,6 @@ setup(
     ext_modules=[
         unwrap2D._ffi.verifier.get_extension(),
         unwrap3D._ffi.verifier.get_extension()
-        ],
-    zip_safe=False, # cffi requirement for setuptools
-    )
+    ],
+    zip_safe=False,  # cffi requirement for setuptools
+)
