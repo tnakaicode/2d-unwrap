@@ -3,3 +3,6 @@ build/
 dist/
 _cffi_*
 *.egg-info
+
+# VSCode
+.vscode/settings.json
