@@ -61,6 +61,10 @@ Internally the wrapped array is converted to a C-contiguous array of
 
 Usage examples can be found in ``test/test_unwrap.py``.
 
+Error
+"""Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/"""
+
+
 People
 ------
 
